@@ -1,0 +1,36 @@
+﻿<Window x:Class="Aula5_CheckBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aula5_CheckBox"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Embers Piano VFX" Height="500
+        " Width="800">
+    <Grid>
+        <Button Content="Load MIDI" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="367" Height="26" BorderBrush="#FF00579C" Background="#FF00579C" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Unload MIDI" HorizontalAlignment="Left" Margin="415,42,0,0" VerticalAlignment="Top" Width="367" Height="26" BorderBrush="#FF00579C" Background="#FF00579C" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Bold"/>
+        <TextBlock Margin="10,73,415,0" TextWrapping="Wrap" Text="Render Resolution" VerticalAlignment="Top" Width="367" TextAlignment="Center" FontSize="18" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Bold"/>
+        <TextBlock Margin="415,73,10,0" TextWrapping="Wrap" Text="Render Options" VerticalAlignment="Top" Width="367" TextAlignment="Center" FontSize="18" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Bold"/>
+        <TextBlock Margin="10,100,721,0" TextWrapping="Wrap" Text="Width" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular"/>
+        <TextBlock Margin="10,127,721,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular"/>
+        <ComboBox HorizontalAlignment="Left" Margin="662,434,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Margin="191,100,540,0" TextWrapping="Wrap" Text="Display" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular"/>
+        <ComboBox HorizontalAlignment="Left" Margin="257,95,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
+        <TextBlock Margin="191,127,540,0" TextWrapping="Wrap" Text="SSAA" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular"/>
+        <ComboBox HorizontalAlignment="Left" Margin="257,122,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
+        <TextBlock Margin="415,100,316,0" TextWrapping="Wrap" Text="FPS" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular"/>
+        <ComboBox HorizontalAlignment="Left" Margin="686,95,0,0" VerticalAlignment="Top" Width="96" Height="22"/>
+        <TextBlock Margin="611,100,106,0" TextWrapping="Wrap" Text="Note Size" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular" Height="24"/>
+        <CheckBox Content="Ignore Color Events" Margin="530,116,120,308" RenderTransformOrigin="0.767,-0.222" VerticalContentAlignment="Center" Background="#FF00579C" Checked="CheckBox_Checked_1" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular" FontSize="14" BorderBrush="#FF00579C"/>
+        <CheckBox Content="Use Background" Margin="10,211,640,218" RenderTransformOrigin="0.767,-0.222" VerticalContentAlignment="Center" Background="#FF00579C" Checked="CheckBox_Checked_1" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular" FontSize="14" BorderBrush="#FF00579C"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="137,219,0,0" VerticalAlignment="Top" Width="115" Height="26" BorderBrush="#FF00579C" Background="#FF00579C" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Start Preview" HorizontalAlignment="Left" Margin="10,433,0,0" VerticalAlignment="Top" Width="124" Height="26" BorderBrush="#FF00579C" Background="#FF00579C" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="149,433,0,0" VerticalAlignment="Top" Width="115" Height="26" BorderBrush="#FF00579C" Background="#FF00579C" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Bold" Click="Button_Click_1" RenderTransformOrigin="0.461,0.192"/>
+        <TextBlock Margin="10,161,10,0" TextWrapping="Wrap" Text="Warning: Embers Piano VFX renders in the resolution above, then downscales to the window size" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular"/>
+        <TextBlock Margin="10,189,10,0" TextWrapping="Wrap" Text="Increasing SSAA can greatly increase the smoothness of the pixels but takes much more perfomance" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular"/>
+        <ComboBox HorizontalAlignment="Left" Margin="476,95,0,0" VerticalAlignment="Top" Width="96" Height="22"/>
+        <TextBlock Margin="568,437,135,0" TextWrapping="Wrap" Text="Language" VerticalAlignment="Top" FontSize="14" FontFamily="/Aula5_CheckBox;component/Fonts/#Product Sans" FontWeight="Regular" Height="24"/>
+    </Grid>
+</Window>
